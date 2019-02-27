@@ -11,6 +11,7 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
+import java.util.Scanner;
 
 public class ProducerApps
 {
@@ -19,29 +20,27 @@ public class ProducerApps
     public static void main(String[] args)
     {
         Properties properties = new Properties();
-        String topicName = StringConstant.TOPIC_NAME;
+        String topicName = StringConstant.INPUT_TOPIC_NAME;
 
         try
         {
             InputStream input = new FileInputStream(StringConstant.PRODUCER_CONFIG_LOCATION);
             properties.load(input);
-            Producer<String, User> producer = new KafkaProducer<>(properties);
-            User user;
-            for (char i = 'a'; i <= 'z'; i++)
-            {
-                logger.info("record is being sent");
-                user = new User(i, "name" + i, "address" + i);
+            Producer<String, String> producer = new KafkaProducer<>(properties);
+
+            Scanner scanner=new Scanner(System.in);
+            logger.info("Enter string: ");
+            String str=scanner.next();
                 try
                 {
-                    producer.send(new ProducerRecord<>(topicName, String.valueOf(i), user));
+                    producer.send(new ProducerRecord<>(topicName, str));
 
                 }
                 catch (Exception ex)
                 {
-                    logger.error("Could not send user: {}", user);
+                    logger.error("Could not send value you have entered:");
                 }
 
-            }
             producer.close();
         }
         catch (IOException ex)

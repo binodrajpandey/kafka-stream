@@ -20,20 +20,20 @@ public class ConsumerApps
     {
         Properties properties = new Properties();
 
-        String topicName = StringConstant.TOPIC_NAME;
+        String topicName = StringConstant.OUTPUT_TOPIC_NAME;
         try
         {
             InputStream input = new FileInputStream(StringConstant.CONSUMER_CONFIG_LOCATION);
             properties.load(input);
-            KafkaConsumer<String, User> consumer = new KafkaConsumer<String, User>(properties);
+            KafkaConsumer<String, String> consumer = new KafkaConsumer<>(properties);
             consumer.subscribe(Arrays.asList(topicName));
             while (true)
             {
-                ConsumerRecords<String, User> records = consumer.poll(Duration.ofMillis(100));
-                for (ConsumerRecord<String, User> record : records)
+                ConsumerRecords<String, String> records = consumer.poll(Duration.ofMillis(100));
+                for (ConsumerRecord<String, String> record : records)
                 {
 
-                    logger.info("{}", record.value().getName());
+                    logger.info("{}", record.value());
                 }
 
             }
