@@ -34,6 +34,7 @@ public class ConsumerApps
                 {
 
                     logger.info("{}", record.value());
+                    System.out.println(record.value());
                 }
 
             }
