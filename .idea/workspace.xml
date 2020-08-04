@@ -1,123 +1,202 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b687ed54-db8e-4093-9c5c-574b5032b38f" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="151868d6-ce2c-47e2-aa7d-d74267af7183" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/google-java-format.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_luben_zstd_jni_1_4_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_kafka_connect_api_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_kafka_connect_json_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_kafka_kafka_clients_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_kafka_kafka_streams_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_lz4_lz4_java_1_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_rocksdb_rocksdbjni_5_18_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xerial_snappy_snappy_java_1_1_7_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/streams.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/kafka-stream.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/.idea/libraries/Maven__com_github_luben_zstd_jni_1_3_5_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/.idea/libraries/Maven__javax_ws_rs_javax_ws_rs_api_2_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/.idea/libraries/Maven__org_apache_kafka_connect_api_2_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/.idea/libraries/Maven__org_apache_kafka_connect_json_2_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/.idea/libraries/Maven__org_apache_kafka_kafka_clients_2_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/.idea/libraries/Maven__org_apache_kafka_kafka_streams_2_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/.idea/libraries/Maven__org_lz4_lz4_java_1_5_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/.idea/libraries/Maven__org_rocksdb_rocksdbjni_5_14_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/.idea/libraries/Maven__org_xerial_snappy_snappy_java_1_1_7_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/RemoteSystemsTempFiles/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/src/main/java/myapps/ConsumerApps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/src/main/java/myapps/LineSplit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/src/main/java/myapps/Pipe.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/src/main/java/myapps/ProducerApps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/src/main/java/myapps/StringConstant.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/src/main/java/myapps/WordCount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/src/main/resources/consumer.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/src/main/resources/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/src/main/resources/producer.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/streams.examples.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/target/classes/consumer.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/target/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/target/classes/myapps/ConsumerApps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/target/classes/myapps/CustomPartitioner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/target/classes/myapps/Pipe$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/target/classes/myapps/Pipe.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/target/classes/myapps/ProducerApps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/target/classes/myapps/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/target/classes/myapps/UserDeserializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/target/classes/myapps/UserSerializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/target/classes/myapps/WordCount$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/target/classes/myapps/WordCount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/target/streams.examples-0.1.jar" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-546525773">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="1" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1358" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="kafka-stream" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kafka-stream" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+  <component name="ProjectId" id="1fcdtAK7gz9anzsUs6IeVAHi9wu" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showVisibilityIcons" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="copyright.filetypes.JAVA" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
+  <component name="RunManager" selected="Application.WordCount">
+    <configuration name="ConsumerApps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="myapps.ConsumerApps" />
+      <module name="streams" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="myapps.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Pipe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="myapps.Pipe" />
+      <module name="streams" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="myapps.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProducerApps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="myapps.ProducerApps" />
+      <module name="streams" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="myapps.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WordCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="myapps.WordCount" />
+      <module name="streams" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="myapps.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
       <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
+        <item itemvalue="Application.WordCount" />
+        <item itemvalue="Application.ProducerApps" />
+        <item itemvalue="Application.Pipe" />
+        <item itemvalue="Application.ConsumerApps" />
       </list>
-    </option>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b687ed54-db8e-4093-9c5c-574b5032b38f" name="Default Changelist" comment="" />
-      <created>1551252032813</created>
+      <changelist id="151868d6-ce2c-47e2-aa7d-d74267af7183" name="Default Changelist" comment="" />
+      <created>1596521526830</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1551252032813</updated>
-      <workItem from="1551252035504" duration="10000" />
+      <updated>1596521526830</updated>
     </task>
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="1358" y="-8" width="1936" height="1056" extended-state="6" />
-    <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
+  <component name="WindowStateProjectService">
+    <state width="1638" height="295" key="GridCell.Tab.0.bottom" timestamp="1596523314851">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="295" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1596523314851" />
+    <state width="1638" height="295" key="GridCell.Tab.0.center" timestamp="1596523314850">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="295" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1596523314850" />
+    <state width="1638" height="295" key="GridCell.Tab.0.left" timestamp="1596523314848">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="295" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1596523314848" />
+    <state width="1638" height="295" key="GridCell.Tab.0.right" timestamp="1596523314850">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="295" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1596523314850" />
+    <state x="100" y="100" width="1480" height="850" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1596523471135">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="100" y="100" width="1480" height="850" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1596523471135" />
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1596522012308">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1596522012308" />
   </component>
 </project>
